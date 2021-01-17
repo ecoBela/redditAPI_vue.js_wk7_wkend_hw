@@ -21,7 +21,7 @@ export default {
   mounted(){
     fetch('https://www.reddit.com/r/edinburgh.json')
     .then(res => res.json())
-    .then(data => this.edinburghQuestionsList = data)
+    .then(questions => this.edinburghQuestionsList = questions.data.children)
   },
   methods: {
 

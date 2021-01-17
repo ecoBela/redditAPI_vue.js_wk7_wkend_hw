@@ -1,7 +1,8 @@
 <template>
    <div>
        <h2>List of questions rendered here</h2>
-       <question>  </question>
+       <question></question>
+       <ul></ul>
    </div>
   
 </template>
