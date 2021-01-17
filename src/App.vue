@@ -1,8 +1,16 @@
 <template>
-  <p>This is where the list component will appear</p>
+   <div>
+        <h1>This is where the list of questions component will go</h1>
+        <div>
+            <list-of-questions></list-of-questions>
+            <question-details></question-details>
+        </div>
+    </div>
 </template>
 
 <script>
+import ListOfQuestions from './components/ListOfQuestions.vue';
+
 export default {
   name: 'app',
   data(){
@@ -21,12 +29,13 @@ export default {
   },
   
   components: {
+    "list-of-questions": ListOfQuestions
 
   }
 
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
