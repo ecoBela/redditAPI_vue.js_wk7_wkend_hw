@@ -1,7 +1,7 @@
 <template>
    <div>
         <div>
-            <list-of-questions></list-of-questions>
+            <list-of-questions :edin-questions-list="edinburghQuestionsList"></list-of-questions>
             <question-details></question-details>
         </div>
     </div>

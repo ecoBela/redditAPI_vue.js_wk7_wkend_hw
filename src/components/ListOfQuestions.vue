@@ -10,7 +10,7 @@
 import Question from './Question.vue'; 
 export default {
     name: 'list-of-questions',
-    props: [],
+    props: ['edin-questions-list'],
     components: {
         "question": Question
     }
