@@ -1,6 +1,5 @@
 <template>
    <div>
-        <h1>This is where the list of questions component will go</h1>
         <div>
             <list-of-questions></list-of-questions>
             <question-details></question-details>

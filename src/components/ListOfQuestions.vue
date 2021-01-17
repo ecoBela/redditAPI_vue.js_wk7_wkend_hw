@@ -1,21 +1,24 @@
 <template>
    <div>
-       <h1>List of Questions on Reddit About Edinburgh</h1>
-       <question></question>
+       <h2>List of questions rendered here</h2>
+       <question>  </question>
    </div>
   
 </template>
 
 <script>
+import Question from './Question.vue'; 
 export default {
     name: 'list-of-questions',
-    props: []
+    props: [],
+    components: {
+        "question": Question
+    }
+    
 
 }
 </script>
 
 <style scoped>
-
-</style>>
 
 </style>
